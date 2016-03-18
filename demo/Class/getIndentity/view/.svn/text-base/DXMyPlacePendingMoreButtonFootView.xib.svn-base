@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DXMyPlacePendingMoreButtonFootView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ac-AY-m2x">
+                    <rect key="frame" x="10" y="0.0" width="300" height="42"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B86-Pu-mva">
+                            <rect key="frame" x="0.0" y="41" width="300" height="1"/>
+                            <color key="backgroundColor" red="0.90196078430000004" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="djp-1E-KG5"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MuM-C0-8mN">
+                            <rect key="frame" x="29" y="6" width="243" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="查看更多账单"/>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leftDown.png" translatesAutoresizingMaskIntoConstraints="NO" id="ArN-QZ-L6q">
+                            <rect key="frame" x="0.0" y="0.0" width="5" height="5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="5" id="7wa-th-yMC"/>
+                                <constraint firstAttribute="width" constant="5" id="UzW-cN-RtM"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---------------------------------------------------------------------------------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Tg-Ep-A2Z">
+                            <rect key="frame" x="5" y="0.0" width="300" height="2"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="9QI-7Y-FqL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="0.90980392156862744" green="0.91764705882352937" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightDown.png" translatesAutoresizingMaskIntoConstraints="NO" id="IuB-cf-9bo">
+                            <rect key="frame" x="295" y="0.0" width="5" height="5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="5" id="pj2-XQ-ozy"/>
+                                <constraint firstAttribute="height" constant="5" id="qlK-Ri-CBa"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HUf-6k-NQ7">
+                            <rect key="frame" x="0.0" y="5" width="1" height="37"/>
+                            <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="hkg-Fh-kCL"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xi3-oZ-1AV">
+                            <rect key="frame" x="299" y="5" width="1" height="37"/>
+                            <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="ewl-2F-Z3S"/>
+                                <constraint firstAttribute="height" constant="37" id="fSt-cX-1Na"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="xi3-oZ-1AV" firstAttribute="top" secondItem="6ac-AY-m2x" secondAttribute="top" constant="5" id="0sG-Do-JAf"/>
+                        <constraint firstItem="B86-Pu-mva" firstAttribute="leading" secondItem="6ac-AY-m2x" secondAttribute="leading" id="2p3-8c-q2G"/>
+                        <constraint firstAttribute="trailing" secondItem="B86-Pu-mva" secondAttribute="trailing" id="3R8-u6-yM0"/>
+                        <constraint firstItem="ArN-QZ-L6q" firstAttribute="leading" secondItem="6ac-AY-m2x" secondAttribute="leading" id="5UR-3e-B9e"/>
+                        <constraint firstItem="IuB-cf-9bo" firstAttribute="top" secondItem="6ac-AY-m2x" secondAttribute="top" id="JLP-y6-RMc"/>
+                        <constraint firstItem="MuM-C0-8mN" firstAttribute="top" secondItem="0Tg-Ep-A2Z" secondAttribute="bottom" constant="4" id="Q4v-Kd-0s3"/>
+                        <constraint firstItem="B86-Pu-mva" firstAttribute="top" secondItem="MuM-C0-8mN" secondAttribute="bottom" constant="5" id="Szh-8U-b7N"/>
+                        <constraint firstAttribute="bottom" secondItem="HUf-6k-NQ7" secondAttribute="bottom" id="Ysv-XL-Nhc"/>
+                        <constraint firstAttribute="bottom" secondItem="B86-Pu-mva" secondAttribute="bottom" id="ZYr-RO-QWu"/>
+                        <constraint firstItem="0Tg-Ep-A2Z" firstAttribute="top" secondItem="6ac-AY-m2x" secondAttribute="top" id="aRf-Fs-gS1"/>
+                        <constraint firstAttribute="trailing" secondItem="IuB-cf-9bo" secondAttribute="trailing" id="aWT-Ez-f6U"/>
+                        <constraint firstItem="HUf-6k-NQ7" firstAttribute="leading" secondItem="6ac-AY-m2x" secondAttribute="leading" id="b8P-kP-wQN"/>
+                        <constraint firstItem="MuM-C0-8mN" firstAttribute="leading" secondItem="HUf-6k-NQ7" secondAttribute="trailing" constant="28" id="egK-oy-Lwk"/>
+                        <constraint firstAttribute="trailing" secondItem="0Tg-Ep-A2Z" secondAttribute="trailing" constant="-5" id="foy-uD-RGC"/>
+                        <constraint firstItem="HUf-6k-NQ7" firstAttribute="top" secondItem="6ac-AY-m2x" secondAttribute="top" constant="5" id="iOp-VR-XDt"/>
+                        <constraint firstAttribute="trailing" secondItem="xi3-oZ-1AV" secondAttribute="trailing" id="nuo-A2-3fx"/>
+                        <constraint firstItem="ArN-QZ-L6q" firstAttribute="top" secondItem="6ac-AY-m2x" secondAttribute="top" id="rXU-6v-4rB"/>
+                        <constraint firstItem="xi3-oZ-1AV" firstAttribute="leading" secondItem="MuM-C0-8mN" secondAttribute="trailing" constant="27" id="t69-J5-6eL"/>
+                        <constraint firstItem="0Tg-Ep-A2Z" firstAttribute="leading" secondItem="6ac-AY-m2x" secondAttribute="leading" constant="5" id="xsD-vh-QDy"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6ac-AY-m2x" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6YT-sY-LIb"/>
+                <constraint firstAttribute="trailing" secondItem="6ac-AY-m2x" secondAttribute="trailing" constant="10" id="fuS-wi-PXZ"/>
+                <constraint firstAttribute="bottom" secondItem="6ac-AY-m2x" secondAttribute="bottom" id="iDs-Kd-8wL"/>
+                <constraint firstItem="6ac-AY-m2x" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="xg8-Nj-VUA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="moreButton" destination="MuM-C0-8mN" id="KpT-Ar-Er9"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="leftDown.png" width="5" height="5"/>
+        <image name="rightDown.png" width="5" height="5"/>
+    </resources>
+</document>

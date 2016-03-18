@@ -9,6 +9,8 @@
 #import "BaseViewController.h"
 #import "GetIndentifyViewController.h"
 #import "WeChatRedPacktViewController.h"
+#import "DXMyHomePlaceViewController.h"
+#import "DXUserImmsiteBaseViewController.h"
 
 @interface BaseViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -28,7 +30,7 @@
     self.baseTableView.delegate = self;
     self.baseTableView.dataSource = self;
     
-    self.array = [[NSMutableArray alloc]initWithObjects:@"1.短信验证码倒计时闪烁",@"2.微信红包算法", nil];
+    self.array = [[NSMutableArray alloc]initWithObjects:@"1.短信验证码倒计时闪烁",@"2.微信红包算法",@"3.下拉折叠和头部左右选中封装",@"4.类似淘宝的选择商品",@"5.从html5页面调用原生方法", nil];
     
 }
 
@@ -61,6 +63,14 @@
     }else if (indexPath.row == 1) {
         WeChatRedPacktViewController *viewChat = [[WeChatRedPacktViewController alloc]initWithNibName:@"WeChatRedPacktViewController" bundle:nil];
         [self.navigationController pushViewController:viewChat animated:YES];
+    }  else if (indexPath.row == 2) {
+        
+         DXMyHomePlaceViewController *myPlace = [[ DXMyHomePlaceViewController alloc]init];
+        [self.navigationController pushViewController:myPlace animated:YES];
+    } else if (indexPath.row == 3) {
+        
+        DXUserImmsiteBaseViewController *site = [[DXUserImmsiteBaseViewController alloc]init];
+        [self.navigationController pushViewController:site animated:YES];
     }
     
     

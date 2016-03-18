@@ -1,0 +1,77 @@
+//
+//  DXMyPlacePendingHeadView.h
+//  T3Incubator
+//
+//  Created by mlf on 16/3/15.
+//  Copyright © 2016年 mlf. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface DXMyPlacePendingHeadView : UIView
+
+
+
+@property (weak, nonatomic) IBOutlet UIView *lowerView;
+
+
+
+@property (weak, nonatomic) IBOutlet UIImageView *leftImageView;
+
+
+
+
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *orderIdNumber;
+
+
+
+
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+
+
+
+@property (weak, nonatomic) IBOutlet UILabel *moneyLabel;
+
+
+
+
+@property (weak, nonatomic) IBOutlet UIButton *moreButton;
+
+
+
+
+
+
+
+@property (weak, nonatomic) IBOutlet UIView *leftdownOneView;
+
+
+@property (weak, nonatomic) IBOutlet UIView *leftdownTwoView;
+
+
+
+@property (weak, nonatomic) IBOutlet UILabel *leftDaylabel;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *leffNameLabel;
+
+
+
+@property (weak, nonatomic) IBOutlet UILabel *downTitleLabel;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *downTimeLabel;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *downMoneyLabel;
+
+@property (weak, nonatomic) IBOutlet UIButton *downPayButton;
+
+
+@property (weak, nonatomic) IBOutlet UIView *moreView;
+
+
+@end

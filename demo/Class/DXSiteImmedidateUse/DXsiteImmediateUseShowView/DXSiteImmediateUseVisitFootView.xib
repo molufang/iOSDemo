@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总计" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIW-q0-RgQ">
+                    <rect key="frame" x="8" y="11" width="75" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="B1c-ii-BqI"/>
+                        <constraint firstAttribute="height" constant="21" id="YYj-oF-VT9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥1000元" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvr-hU-ax9">
+                    <rect key="frame" x="199" y="11" width="103" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="p3f-Cx-p6L"/>
+                        <constraint firstAttribute="width" constant="103" id="sMP-FE-16L"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.21960784310000001" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VcS-nv-Bmz">
+                    <rect key="frame" x="0.0" y="38" width="320" height="1"/>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="EQ5-fg-7K5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="nIW-q0-RgQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="2ld-No-JBC"/>
+                <constraint firstAttribute="bottom" secondItem="Nvr-hU-ax9" secondAttribute="bottom" constant="3" id="7GN-YQ-mcl"/>
+                <constraint firstAttribute="trailing" secondItem="Nvr-hU-ax9" secondAttribute="trailing" constant="18" id="M3j-zJ-rjr"/>
+                <constraint firstAttribute="bottom" secondItem="VcS-nv-Bmz" secondAttribute="bottom" constant="-4" id="eNw-ZL-U4f"/>
+                <constraint firstItem="nIW-q0-RgQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="tdh-uj-U1M"/>
+                <constraint firstAttribute="trailing" secondItem="VcS-nv-Bmz" secondAttribute="trailing" id="xtm-LG-foq"/>
+                <constraint firstItem="VcS-nv-Bmz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="z4v-gk-7RA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

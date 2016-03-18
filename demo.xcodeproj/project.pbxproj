@@ -69,6 +69,9 @@
 		5E5C832F1C9BED1F00003C23 /* jiahao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C832B1C9BED1F00003C23 /* jiahao@3x.png */; };
 		5E5C83301C9BED1F00003C23 /* jianhao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C832C1C9BED1F00003C23 /* jianhao@2x.png */; };
 		5E5C83311C9BED1F00003C23 /* jianhao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C832D1C9BED1F00003C23 /* jianhao@3x.png */; };
+		5E5C83371C9BEFC400003C23 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C83331C9BEFC400003C23 /* index.html */; };
+		5E5C83381C9BEFC400003C23 /* WifiInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C83351C9BEFC400003C23 /* WifiInfoViewController.m */; };
+		5E5C83391C9BEFC400003C23 /* WifiInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C83361C9BEFC400003C23 /* WifiInfoViewController.xib */; };
 		5ED2ADAF1C72B53B006CBB22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2ADAE1C72B53B006CBB22 /* main.m */; };
 		5ED2ADB21C72B53B006CBB22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2ADB11C72B53B006CBB22 /* AppDelegate.m */; };
 		5ED2ADB81C72B53B006CBB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED2ADB61C72B53B006CBB22 /* Main.storyboard */; };
@@ -206,6 +209,10 @@
 		5E5C832B1C9BED1F00003C23 /* jiahao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiahao@3x.png"; sourceTree = "<group>"; };
 		5E5C832C1C9BED1F00003C23 /* jianhao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jianhao@2x.png"; sourceTree = "<group>"; };
 		5E5C832D1C9BED1F00003C23 /* jianhao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jianhao@3x.png"; sourceTree = "<group>"; };
+		5E5C83331C9BEFC400003C23 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		5E5C83341C9BEFC400003C23 /* WifiInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiInfoViewController.h; sourceTree = "<group>"; };
+		5E5C83351C9BEFC400003C23 /* WifiInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiInfoViewController.m; sourceTree = "<group>"; };
+		5E5C83361C9BEFC400003C23 /* WifiInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WifiInfoViewController.xib; sourceTree = "<group>"; };
 		5E7B5ED91C9BE0C2001B54B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5ED2ADAA1C72B53B006CBB22 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED2ADAE1C72B53B006CBB22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -284,6 +291,7 @@
 		5E5C82771C9BECC000003C23 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				5E5C83321C9BEFC400003C23 /* WifiInfo */,
 				5E5C82781C9BECC000003C23 /* DXMyPlace */,
 				5E5C82D31C9BECC000003C23 /* DXSiteImmedidateUse */,
 				5E5C82E51C9BECC000003C23 /* getIndentity */,
@@ -600,6 +608,17 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		5E5C83321C9BEFC400003C23 /* WifiInfo */ = {
+			isa = PBXGroup;
+			children = (
+				5E5C83331C9BEFC400003C23 /* index.html */,
+				5E5C83341C9BEFC400003C23 /* WifiInfoViewController.h */,
+				5E5C83351C9BEFC400003C23 /* WifiInfoViewController.m */,
+				5E5C83361C9BEFC400003C23 /* WifiInfoViewController.xib */,
+			);
+			path = WifiInfo;
+			sourceTree = "<group>";
+		};
 		5E7B5ED81C9BE0C2001B54B7 /* Public */ = {
 			isa = PBXGroup;
 			children = (
@@ -792,6 +811,7 @@
 				5ED2ADBD1C72B53B006CBB22 /* LaunchScreen.storyboard in Resources */,
 				5ED2ADBA1C72B53B006CBB22 /* Assets.xcassets in Resources */,
 				5E5C83251C9BECC000003C23 /* DXUserImmsiteBaseViewController.xib in Resources */,
+				5E5C83391C9BEFC400003C23 /* WifiInfoViewController.xib in Resources */,
 				5E5C83311C9BED1F00003C23 /* jianhao@3x.png in Resources */,
 				5E5C83081C9BECC000003C23 /* DateTools.bundle in Resources */,
 				5E5C83051C9BECC000003C23 /* DXMyPlacePendingMoreButtonFootView.xib in Resources */,
@@ -799,6 +819,7 @@
 				5ED2ADB81C72B53B006CBB22 /* Main.storyboard in Resources */,
 				5E5C82151C9BE85300003C23 /* tupian.png in Resources */,
 				5E5C83031C9BECC000003C23 /* DXMyPlacePendingLeastTableViewCell.xib in Resources */,
+				5E5C83371C9BEFC400003C23 /* index.html in Resources */,
 				5E5C83011C9BECC000003C23 /* DXMyPlacePendingHeadView.xib in Resources */,
 				5E5C82FB1C9BECC000003C23 /* DXMyPlacePendingPaymentViewController.xib in Resources */,
 				5E5C831B1C9BECC000003C23 /* fontColor.plist in Resources */,
@@ -832,6 +853,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5C83151C9BECC000003C23 /* UIImage+Resize.m in Sources */,
+				5E5C83381C9BEFC400003C23 /* WifiInfoViewController.m in Sources */,
 				5E5C83161C9BECC000003C23 /* UIImage+Rotation.m in Sources */,
 				5E5C83101C9BECC000003C23 /* UIButton+Transform.m in Sources */,
 				5E5C82F61C9BECC000003C23 /* DXBaseMyPlaceViewController.m in Sources */,

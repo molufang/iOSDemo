@@ -11,6 +11,7 @@
 #import "WeChatRedPacktViewController.h"
 #import "DXMyHomePlaceViewController.h"
 #import "DXUserImmsiteBaseViewController.h"
+#import "WifiInfoViewController.h"
 
 @interface BaseViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -30,7 +31,7 @@
     self.baseTableView.delegate = self;
     self.baseTableView.dataSource = self;
     
-    self.array = [[NSMutableArray alloc]initWithObjects:@"1.短信验证码倒计时闪烁",@"2.微信红包算法",@"3.下拉折叠和头部左右选中封装",@"4.类似淘宝的选择商品",@"5.从html5页面调用原生方法", nil];
+    self.array = [[NSMutableArray alloc]initWithObjects:@"1.短信验证码倒计时闪烁",@"2.微信红包算法",@"3.下拉折叠和头部左右选中封装",@"4.类似淘宝的选择商品",@"5.获取wifi信息", nil];
     
 }
 
@@ -71,6 +72,9 @@
         
         DXUserImmsiteBaseViewController *site = [[DXUserImmsiteBaseViewController alloc]init];
         [self.navigationController pushViewController:site animated:YES];
+    } else if (indexPath.row == 4) {
+        WifiInfoViewController *wifiVC = [[WifiInfoViewController alloc]init];
+        [self.navigationController pushViewController:wifiVC animated:YES];
     }
     
     

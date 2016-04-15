@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E3F845F1CC0E8E300B6D089 /* BlurImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F845D1CC0E8E300B6D089 /* BlurImageViewController.m */; };
+		5E3F84601CC0E8E300B6D089 /* BlurImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E3F845E1CC0E8E300B6D089 /* BlurImageViewController.xib */; };
+		5E3F84661CC0EA0700B6D089 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F84631CC0EA0700B6D089 /* UIImage+ImageEffects.m */; };
+		5E3F84671CC0EA0700B6D089 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F84651CC0EA0700B6D089 /* UIImageView+LBBlurredImage.m */; };
+		5E3F84691CC0EA6B00B6D089 /* bluar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E3F84681CC0EA6B00B6D089 /* bluar.png */; };
 		5E5C82151C9BE85300003C23 /* tupian.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C82121C9BE85300003C23 /* tupian.png */; };
 		5E5C82161C9BE85300003C23 /* tupian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C82131C9BE85300003C23 /* tupian@2x.png */; };
 		5E5C82171C9BE85300003C23 /* tupian@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C82141C9BE85300003C23 /* tupian@3x.png */; };
@@ -117,6 +122,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E3F845C1CC0E8E300B6D089 /* BlurImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurImageViewController.h; sourceTree = "<group>"; };
+		5E3F845D1CC0E8E300B6D089 /* BlurImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurImageViewController.m; sourceTree = "<group>"; };
+		5E3F845E1CC0E8E300B6D089 /* BlurImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlurImageViewController.xib; sourceTree = "<group>"; };
+		5E3F84621CC0EA0700B6D089 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		5E3F84631CC0EA0700B6D089 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		5E3F84641CC0EA0700B6D089 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		5E3F84651CC0EA0700B6D089 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		5E3F84681CC0EA6B00B6D089 /* bluar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluar.png; sourceTree = "<group>"; };
 		5E5C81CA1C9BE26D00003C23 /* CONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONST.h; sourceTree = "<group>"; };
 		5E5C82121C9BE85300003C23 /* tupian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tupian.png; sourceTree = "<group>"; };
 		5E5C82131C9BE85300003C23 /* tupian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tupian@2x.png"; sourceTree = "<group>"; };
@@ -298,6 +311,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E3F845B1CC0E8CE00B6D089 /* BlurImageVC */ = {
+			isa = PBXGroup;
+			children = (
+				5E3F845C1CC0E8E300B6D089 /* BlurImageViewController.h */,
+				5E3F845D1CC0E8E300B6D089 /* BlurImageViewController.m */,
+				5E3F845E1CC0E8E300B6D089 /* BlurImageViewController.xib */,
+			);
+			path = BlurImageVC;
+			sourceTree = "<group>";
+		};
+		5E3F84611CC0EA0700B6D089 /* BlurImage */ = {
+			isa = PBXGroup;
+			children = (
+				5E3F84621CC0EA0700B6D089 /* UIImage+ImageEffects.h */,
+				5E3F84631CC0EA0700B6D089 /* UIImage+ImageEffects.m */,
+				5E3F84641CC0EA0700B6D089 /* UIImageView+LBBlurredImage.h */,
+				5E3F84651CC0EA0700B6D089 /* UIImageView+LBBlurredImage.m */,
+			);
+			path = BlurImage;
+			sourceTree = "<group>";
+		};
 		5E5C820F1C9BE80200003C23 /* Reasourse */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +351,7 @@
 		5E5C82111C9BE85300003C23 /* tempImage */ = {
 			isa = PBXGroup;
 			children = (
+				5E3F84681CC0EA6B00B6D089 /* bluar.png */,
 				5E5C832A1C9BED1F00003C23 /* jiahao@2x.png */,
 				5E5C832B1C9BED1F00003C23 /* jiahao@3x.png */,
 				5E5C832C1C9BED1F00003C23 /* jianhao@2x.png */,
@@ -331,6 +366,7 @@
 		5E5C82771C9BECC000003C23 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				5E3F845B1CC0E8CE00B6D089 /* BlurImageVC */,
 				5EDE4DCC1CBF5B8300531D0D /* mansoryUse */,
 				5E5C83321C9BEFC400003C23 /* WifiInfo */,
 				5E5C82781C9BECC000003C23 /* DXMyPlace */,
@@ -739,6 +775,7 @@
 		5EDE4DA51CBF5B5600531D0D /* thirdParts */ = {
 			isa = PBXGroup;
 			children = (
+				5E3F84611CC0EA0700B6D089 /* BlurImage */,
 				5EDE4DA61CBF5B6600531D0D /* Masonry */,
 			);
 			path = thirdParts;
@@ -897,6 +934,7 @@
 				5ED2AE021C72BC80006CBB22 /* BaseViewController.xib in Resources */,
 				5E5C82171C9BE85300003C23 /* tupian@3x.png in Resources */,
 				5E5C83201C9BECC000003C23 /* DXSiteImmediateUseVisit.xib in Resources */,
+				5E3F84601CC0E8E300B6D089 /* BlurImageViewController.xib in Resources */,
 				5EDE4DC11CBF5B6600531D0D /* Info.plist in Resources */,
 				5E5C831E1C9BECC000003C23 /* DXSiteImmdeiateOrderTableViewCell.xib in Resources */,
 				5E5C83301C9BED1F00003C23 /* jianhao@2x.png in Resources */,
@@ -906,6 +944,7 @@
 				5E5C83251C9BECC000003C23 /* DXUserImmsiteBaseViewController.xib in Resources */,
 				5E5C83391C9BEFC400003C23 /* WifiInfoViewController.xib in Resources */,
 				5E5C83311C9BED1F00003C23 /* jianhao@3x.png in Resources */,
+				5E3F84691CC0EA6B00B6D089 /* bluar.png in Resources */,
 				5E5C83081C9BECC000003C23 /* DateTools.bundle in Resources */,
 				5E5C83051C9BECC000003C23 /* DXMyPlacePendingMoreButtonFootView.xib in Resources */,
 				5E5C82FD1C9BECC000003C23 /* DXMyPlaceViewController.xib in Resources */,
@@ -961,9 +1000,11 @@
 				5EDE4DC81CBF5B6600531D0D /* NSArray+MASAdditions.m in Sources */,
 				5E5C82F31C9BECC000003C23 /* DXBaseSegementSelect.m in Sources */,
 				5E5C83211C9BECC000003C23 /* DXSiteImmediateUseVisitFootView.m in Sources */,
+				5E3F84661CC0EA0700B6D089 /* UIImage+ImageEffects.m in Sources */,
 				5E5C830E1C9BECC000003C23 /* DTTimePeriodGroup.m in Sources */,
 				5EDE4DC51CBF5B6600531D0D /* MASLayoutConstraint.m in Sources */,
 				5E5C83231C9BECC000003C23 /* DXStandardModel.m in Sources */,
+				5E3F845F1CC0E8E300B6D089 /* BlurImageViewController.m in Sources */,
 				5E5C830F1C9BECC000003C23 /* NSDate+DateTools.m in Sources */,
 				5EDE4DC21CBF5B6600531D0D /* MASCompositeConstraint.m in Sources */,
 				5E5C82F41C9BECC000003C23 /* DXTitleSegement.m in Sources */,
@@ -997,6 +1038,7 @@
 				5E5C83181C9BECC000003C23 /* UIView+Addition.m in Sources */,
 				5EDE4DC91CBF5B6600531D0D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				5ED2ADAF1C72B53B006CBB22 /* main.m in Sources */,
+				5E3F84671CC0EA0700B6D089 /* UIImageView+LBBlurredImage.m in Sources */,
 				5E5C83061C9BECC000003C23 /* DXMyPlacePendingNewTableViewCell.m in Sources */,
 				5E5C82F71C9BECC000003C23 /* DXMyHomePlaceViewController.m in Sources */,
 			);

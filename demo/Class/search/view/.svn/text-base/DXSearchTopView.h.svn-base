@@ -1,0 +1,18 @@
+//
+//  DXSearchTopView.h
+//  CPSActivity
+//
+//  Created by mlf on 16/5/4.
+//  Copyright © 2016年 mlf. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@protocol DXSearchTopViewDelegate <NSObject>
+
+-(void)didSelectBackButton;
+
+@end
+@interface DXSearchTopView : UIView
+@property (nonatomic,assign) id <DXSearchTopViewDelegate>delegate;
+
+@end

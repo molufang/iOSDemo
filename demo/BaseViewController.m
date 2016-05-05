@@ -14,6 +14,8 @@
 #import "WifiInfoViewController.h"
 #import "MasonryViewController.h"
 #import "BlurImageViewController.h"
+#import "DXSearchHistoryViewController.h"
+
 
 @interface BaseViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -33,7 +35,7 @@
     self.baseTableView.delegate = self;
     self.baseTableView.dataSource = self;
     
-    self.array = [[NSMutableArray alloc]initWithObjects:@"1.短信验证码倒计时闪烁",@"2.微信红包算法",@"3.下拉折叠和头部左右选中封装",@"4.类似淘宝的选择商品",@"5.获取wifi信息",@"6.自动布局的使用",@"7.高斯模糊", nil];
+    self.array = [[NSMutableArray alloc]initWithObjects:@"1.短信验证码倒计时闪烁",@"2.微信红包算法",@"3.下拉折叠和头部左右选中封装",@"4.类似淘宝的选择商品",@"5.获取wifi信息",@"6.自动布局的使用",@"7.高斯模糊", @"8.扫描二维码",@"9.搜索历史记录",nil];
     
 }
 
@@ -84,8 +86,13 @@
         
         BlurImageViewController *masVC = [[BlurImageViewController alloc]init];
         [self.navigationController pushViewController:masVC animated:YES];
+    }else if (indexPath.row == 8) {
+        
+        DXSearchHistoryViewController *searchVC = [[DXSearchHistoryViewController alloc]init];
+        [self.navigationController pushViewController:searchVC animated:YES];
         
     }
+    
 }
 
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E24023F1CDB1F8D0011AD63 /* DXSearchHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2402361CDB1F8D0011AD63 /* DXSearchHistoryViewController.m */; };
+		5E2402401CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24023A1CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.m */; };
+		5E2402411CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E24023B1CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.xib */; };
+		5E2402421CDB1F8D0011AD63 /* DXSearchHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E24023D1CDB1F8D0011AD63 /* DXSearchHistoryView.m */; };
 		5E3F845F1CC0E8E300B6D089 /* BlurImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F845D1CC0E8E300B6D089 /* BlurImageViewController.m */; };
 		5E3F84601CC0E8E300B6D089 /* BlurImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E3F845E1CC0E8E300B6D089 /* BlurImageViewController.xib */; };
 		5E3F84661CC0EA0700B6D089 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F84631CC0EA0700B6D089 /* UIImage+ImageEffects.m */; };
@@ -122,6 +126,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E2402351CDB1F8D0011AD63 /* DXSearchHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSearchHistoryViewController.h; sourceTree = "<group>"; };
+		5E2402361CDB1F8D0011AD63 /* DXSearchHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSearchHistoryViewController.m; sourceTree = "<group>"; };
+		5E2402391CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSearchHistoryTableViewCell.h; sourceTree = "<group>"; };
+		5E24023A1CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSearchHistoryTableViewCell.m; sourceTree = "<group>"; };
+		5E24023B1CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXSearchHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		5E24023C1CDB1F8D0011AD63 /* DXSearchHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXSearchHistoryView.h; sourceTree = "<group>"; };
+		5E24023D1CDB1F8D0011AD63 /* DXSearchHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXSearchHistoryView.m; sourceTree = "<group>"; };
 		5E3F845C1CC0E8E300B6D089 /* BlurImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurImageViewController.h; sourceTree = "<group>"; };
 		5E3F845D1CC0E8E300B6D089 /* BlurImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurImageViewController.m; sourceTree = "<group>"; };
 		5E3F845E1CC0E8E300B6D089 /* BlurImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlurImageViewController.xib; sourceTree = "<group>"; };
@@ -311,6 +322,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E2402311CDB1F8D0011AD63 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				5E2402321CDB1F8D0011AD63 /* controller */,
+				5E2402371CDB1F8D0011AD63 /* model */,
+				5E2402381CDB1F8D0011AD63 /* view */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		5E2402321CDB1F8D0011AD63 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E2402351CDB1F8D0011AD63 /* DXSearchHistoryViewController.h */,
+				5E2402361CDB1F8D0011AD63 /* DXSearchHistoryViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5E2402371CDB1F8D0011AD63 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5E2402381CDB1F8D0011AD63 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5E2402391CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.h */,
+				5E24023A1CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.m */,
+				5E24023B1CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.xib */,
+				5E24023C1CDB1F8D0011AD63 /* DXSearchHistoryView.h */,
+				5E24023D1CDB1F8D0011AD63 /* DXSearchHistoryView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		5E3F845B1CC0E8CE00B6D089 /* BlurImageVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +415,8 @@
 		5E5C82771C9BECC000003C23 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				5E2402311CDB1F8D0011AD63 /* search */,
+				5EB095701CD1B40B00E51579 /* QRCScannerVC */,
 				5E3F845B1CC0E8CE00B6D089 /* BlurImageVC */,
 				5EDE4DCC1CBF5B8300531D0D /* mansoryUse */,
 				5E5C83321C9BEFC400003C23 /* WifiInfo */,
@@ -705,6 +756,13 @@
 			path = Public;
 			sourceTree = "<group>";
 		};
+		5EB095701CD1B40B00E51579 /* QRCScannerVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QRCScannerVC;
+			sourceTree = "<group>";
+		};
 		5ED2ADA11C72B53B006CBB22 = {
 			isa = PBXGroup;
 			children = (
@@ -948,6 +1006,7 @@
 				5E5C83081C9BECC000003C23 /* DateTools.bundle in Resources */,
 				5E5C83051C9BECC000003C23 /* DXMyPlacePendingMoreButtonFootView.xib in Resources */,
 				5E5C82FD1C9BECC000003C23 /* DXMyPlaceViewController.xib in Resources */,
+				5E2402411CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.xib in Resources */,
 				5ED2ADB81C72B53B006CBB22 /* Main.storyboard in Resources */,
 				5E5C82151C9BE85300003C23 /* tupian.png in Resources */,
 				5E5C83031C9BECC000003C23 /* DXMyPlacePendingLeastTableViewCell.xib in Resources */,
@@ -985,6 +1044,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5C83151C9BECC000003C23 /* UIImage+Resize.m in Sources */,
+				5E24023F1CDB1F8D0011AD63 /* DXSearchHistoryViewController.m in Sources */,
 				5E5C83381C9BEFC400003C23 /* WifiInfoViewController.m in Sources */,
 				5E5C83161C9BECC000003C23 /* UIImage+Rotation.m in Sources */,
 				5E5C83101C9BECC000003C23 /* UIButton+Transform.m in Sources */,
@@ -1016,6 +1076,7 @@
 				5E5C82F51C9BECC000003C23 /* DXBaseViewController.m in Sources */,
 				5E5C83121C9BECC000003C23 /* UIImage+HBClass.m in Sources */,
 				5E5C82F81C9BECC000003C23 /* DXMyPlaceMakeAnPomientViewController.m in Sources */,
+				5E2402421CDB1F8D0011AD63 /* DXSearchHistoryView.m in Sources */,
 				5E5C83191C9BECC000003C23 /* UIViewController+BackButtonHandler.m in Sources */,
 				5E5C83281C9BECC000003C23 /* WeChatRedPacktViewController.m in Sources */,
 				5EDE4DCF1CBF5BBD00531D0D /* MasonryViewController.m in Sources */,
@@ -1030,6 +1091,7 @@
 				5E5C830B1C9BECC000003C23 /* DTTimePeriod.m in Sources */,
 				5E5C831D1C9BECC000003C23 /* DXSiteImmdeiateOrderTableViewCell.m in Sources */,
 				5E5C83041C9BECC000003C23 /* DXMyPlacePendingMoreButtonFootView.m in Sources */,
+				5E2402401CDB1F8D0011AD63 /* DXSearchHistoryTableViewCell.m in Sources */,
 				5E5C83171C9BECC000003C23 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				5E5C830A1C9BECC000003C23 /* DTError.m in Sources */,
 				5ED2ADB21C72B53B006CBB22 /* AppDelegate.m in Sources */,
